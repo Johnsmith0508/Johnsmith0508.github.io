@@ -1,0 +1,1 @@
+This is the "code side" of my website (located at johnsmith0508.github.io) the file "index.html" is the landing page for the website. this is a constant WIP, so feel free to fork this repo and generate a pull request with changes.
