@@ -8,8 +8,24 @@
         background-image: url('https://raw.githubusercontent.com/Johnsmith0508/misc-add/gh-pages/images/bkg.png');
         background-repeat: repeat;
         }
-        p {
+        .main p {
             color: #BFBFBF;
+        }
+        /* unvisited link */
+        .main a:link {
+            color: #3D3D5C;
+        }
+        /* visited link */
+        .main a:visited {
+            color: #9E9EAE;
+        }
+        /* mouse over link */
+        .main a:hover {
+            color: #FFFFFF;
+        }
+        /* selected link */
+        .main a:active {
+            color: #808080;
         }
     </style>
 </head>
@@ -17,12 +33,14 @@
 <div class="head">
 <h1>Hello World</h1>
 </div>
+<div class="main">
 <p>This Page is hosted by github pages! and stuff</p>
 <p>My <a href="http://www.github.com/johnsmith0508/johnsmith0508">scource code</a> is located at my github page</p>
 <p>The <a href="http://johnsmith0508.itch.io"> games created </a> using that code are located at my itch.io page</p>
 <p>My <a href="Johnsmith0508"> Main Website </a> is located curently not customised, though the link is still provided</p>
 <p>Another version of <a href="2048clone"> 2048</a> can be found here.</p>
 <p>The Official website for <a href="misc-add">Misc-Add</a> is here</p>
+</div>
 <div class="footer">    
 <p>This page is blank because I have only a <b><i>Very</i></b> Basic understanding of html</p>
 </div>
